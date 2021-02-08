@@ -26,8 +26,8 @@ const ProductPagePreview = ({ entry, getAsset }) => {
       fullImage={entry.getIn(['data', 'full_image'])}
       testimonials={testimonials}
       services={{
-        heading: entry.getIn(['data', 'pricing', 'heading']),
-        description: entry.getIn(['data', 'pricing', 'description']),
+        heading: entry.getIn(['data', 'services', 'heading']),
+        description: entry.getIn(['data', 'services', 'description']),
       }}
     />
   )
