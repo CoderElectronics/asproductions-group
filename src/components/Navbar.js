@@ -72,7 +72,7 @@ const Navbar = class extends React.Component {
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
-              <Link className="btn" to="/admin">
+              <Link className="navbar-item" to="/admin">
                 Login
               </Link>
               <a
