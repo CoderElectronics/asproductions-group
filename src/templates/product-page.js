@@ -103,6 +103,10 @@ ProductPageTemplate.propTypes = {
     description: PropTypes.string,
     plans: PropTypes.array,
   }),
+  services: PropTypes.shape({
+    heading: PropTypes.string,
+    description: PropTypes.string,S
+  })
 }
 
 const ProductPage = ({ data }) => {
