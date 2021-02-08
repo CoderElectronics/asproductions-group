@@ -7,38 +7,38 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="123.74576mm"
-   height="17.562954mm"
-   viewBox="0 0 123.74576 17.562954"
-   version="1.1"
-   id="svg8"
+   sodipodi:docname="logo-bw.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="logo-bw.svg">
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 123.74576 17.562954"
+   height="17.562954mm"
+   width="123.74576mm">
   <defs
      id="defs2" />
   <sodipodi:namedview
-     fit-margin-bottom="0"
-     fit-margin-right="0"
-     fit-margin-left="0"
-     fit-margin-top="0"
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.3249068"
-     inkscape:cx="142.72098"
-     inkscape:cy="242.57494"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     inkscape:window-width="2145"
-     inkscape:window-height="1314"
-     inkscape:window-x="444"
+     inkscape:window-maximized="0"
      inkscape:window-y="19"
-     inkscape:window-maximized="0" />
+     inkscape:window-x="399"
+     inkscape:window-height="1314"
+     inkscape:window-width="2145"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="g15"
+     inkscape:document-units="mm"
+     inkscape:cy="242.57494"
+     inkscape:cx="142.72098"
+     inkscape:zoom="1.3249068"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -52,38 +52,38 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-90.444766,-66.826031)"
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
+     inkscape:label="Layer 1"
+     transform="translate(-90.444766,-66.826031)">
     <g
-       transform="translate(22.366351,-24.962445)"
-       id="g15">
+       id="g15"
+       transform="translate(22.366351,-24.962445)">
       <text
-         id="text12"
-         y="104.62381"
+         xml:space="preserve"
+         style="font-size:14.1111px;line-height:0;font-family:Orbitron;-inkscape-font-specification:Orbitron;stroke-width:0.264583"
          x="67.324669"
-         style="font-size:16.9333px;line-height:0;font-family:Orbitron;-inkscape-font-specification:Orbitron;stroke-width:0.264583"
-         xml:space="preserve"><tspan
-           rotate="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0"
-           dy="0.19"
-           dx="0"
-           style="font-size:16.9333px;line-height:0.85;letter-spacing:-0.907521px;stroke-width:0.264583"
-           y="104.62381"
-           x="67.324669"
+         y="102.82652"
+         id="text12"><tspan
+           sodipodi:role="line"
            id="tspan10"
-           sodipodi:role="line">Arlan Stehney</tspan></text>
+           x="67.324669"
+           y="102.82652"
+           style="font-size:14.1111px;line-height:0.85;letter-spacing:-0.907521px;stroke-width:0.264583"
+           dx="0"
+           dy="0.19"
+           rotate="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0">Arlan Stehney</tspan></text>
       <text
-         id="text16"
-         y="109.25501"
+         xml:space="preserve"
+         style="font-size:7.76111111px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';letter-spacing:0.547687px;stroke-width:0.264583;"
          x="68.163307"
-         style="font-size:5.64444px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';letter-spacing:0.547687px;stroke-width:0.264583"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.264583"
-           y="109.25501"
-           x="68.163307"
+         y="108.85561"
+         id="text16"><tspan
+           sodipodi:role="line"
            id="tspan14"
-           sodipodi:role="line">Productions</tspan></text>
+           x="68.163307"
+           y="108.85561"
+           style="stroke-width:0.264583;font-size:7.76111111px;">Productions</tspan></text>
     </g>
   </g>
 </svg>
