@@ -105,7 +105,7 @@ ProductPageTemplate.propTypes = {
   }),
   services: PropTypes.shape({
     heading: PropTypes.string,
-    description: PropTypes.string,S
+    description: PropTypes.string,
   })
 }
 
