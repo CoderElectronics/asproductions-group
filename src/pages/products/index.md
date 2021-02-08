@@ -37,12 +37,6 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
 main:
   heading: Great coffee with no compromises
   description: >
@@ -59,7 +53,7 @@ testimonials:
       their stance on empowering farmers and transparency.
 full_image: /img/products-full-width.jpg
 services:
-  heading: Monthly subscriptions
+  heading: What we offer
   description: We make it easy to make great coffee a part of your life. Choose
     one of our monthly subscription plans to receive great coffee at your
     doorstep each month. Contact us about more details and payment info.
