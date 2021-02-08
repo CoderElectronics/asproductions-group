@@ -30,8 +30,8 @@ export const ProductPageTemplate = ({
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: '0.5rem 0 0 #26532B, -0.5rem 0 0 #26532B',
-          backgroundColor: '#26532B',
+          boxShadow: '0.5rem 0 0 #5ABCB9, -0.5rem 0 0 #5ABCB9',
+          backgroundColor: '#5ABCB9',
           color: 'white',
           padding: '1rem',
         }}
@@ -189,36 +189,6 @@ export const productPageQuery = graphql`
         main {
           heading
           description
-          image1 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image2 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image3 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1075, quality: 72) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
         }
         testimonials {
           author
@@ -231,15 +201,9 @@ export const productPageQuery = graphql`
             }
           }
         }
-        pricing {
+        main {
           heading
           description
-          plans {
-            description
-            items
-            plan
-            price
-          }
         }
       }
     }
