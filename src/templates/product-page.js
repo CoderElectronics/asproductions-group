@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ProductPageTemplate = ({
@@ -16,7 +15,7 @@ export const ProductPageTemplate = ({
   main,
   testimonials,
   fullImage,
-  pricing,
+  services
 }) => (
   <div className="content">
     <div
@@ -59,27 +58,6 @@ export const ProductPageTemplate = ({
                   <p>{main.description}</p>
                 </div>
               </div>
-              <div className="tile is-ancestor">
-                <div className="tile is-vertical">
-                  <div className="tile">
-                    <div className="tile is-parent is-vertical">
-                      <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image1} />
-                      </article>
-                    </div>
-                    <div className="tile is-parent">
-                      <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image2} />
-                      </article>
-                    </div>
-                  </div>
-                  <div className="tile is-parent">
-                    <article className="tile is-child">
-                      <PreviewCompatibleImage imageInfo={main.image3} />
-                    </article>
-                  </div>
-                </div>
-              </div>
               <Testimonials testimonials={testimonials} />
               <div
                 className="full-width-image-container"
@@ -92,10 +70,9 @@ export const ProductPageTemplate = ({
                 }}
               />
               <h2 className="has-text-weight-semibold is-size-2">
-                {pricing.heading}
+                {services.heading}
               </h2>
-              <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
+              <p>{services.description}</p>
             </div>
           </div>
         </div>
@@ -201,7 +178,7 @@ export const productPageQuery = graphql`
             }
           }
         }
-        main {
+        services {
           heading
           description
         }
