@@ -6,6 +6,12 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
+/*
+backgroundImage: `url(${
+          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+        })`,
+*/
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -17,11 +23,9 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
+      id="bgattach"
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}
