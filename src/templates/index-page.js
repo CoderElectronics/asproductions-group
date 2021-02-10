@@ -50,7 +50,7 @@ export const IndexPageTemplate = ({
       <span></span>
       <span></span>
       <span></span>
-      
+
       <div
         style={{
           display: 'flex',
@@ -70,6 +70,7 @@ export const IndexPageTemplate = ({
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            zIndex: 10,
           }}
         >
           {title}
@@ -83,6 +84,7 @@ export const IndexPageTemplate = ({
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            zIndex: 10,
           }}
         >
           {subheading}
