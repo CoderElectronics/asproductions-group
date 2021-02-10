@@ -23,13 +23,34 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      id="bgattach"
-      className="full-width-image margin-top-0"
+      id=""
+      className="background full-width-image margin-top-0"
       style={{
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}
     >
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      
       <div
         style={{
           display: 'flex',
