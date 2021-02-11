@@ -1,4 +1,4 @@
-  .background {
+  /*.background {
     width: 100vw;
     height: 100vh;
     background: #12100E;
@@ -202,4 +202,20 @@
     100% {
       transform: translate3d(0, 0, 1px) rotate(360deg);
     }
+  }*/
+
+  #containertop {
+    position: relative;
+  }
+  
+  #ontop,
+  #vantajs {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #ontop {
+    z-index: 10;
   }

@@ -5,11 +5,33 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import VantaDIV from '../components/VantaDIV'
 
 /*
 backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
+
+        <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
 */
 
 export const IndexPageTemplate = ({
@@ -23,35 +45,18 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      id=""
+      id="containertop"
       className="background full-width-image margin-top-0"
       style={{
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}
     >
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-
+      <VantaDIV>
+        
+      </VantaDIV>
       <div
+        id="ontop"
         style={{
           display: 'flex',
           height: '150px',
