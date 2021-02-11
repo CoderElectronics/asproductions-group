@@ -1,12 +1,13 @@
 import WAVES from './vanta.waves.min.js';
-import {useRef, useLayoutEffect} from 'react'
+import React from 'react'
+
 class VantaDIV extends React.Component {
   constructor() {
     super()
     this.vantaRef = React.createRef()
   }
   componentDidMount() {
-    this.vantaEffect = BIRDS({
+    this.vantaEffect = WAVES({
         el: this.vantaRef.current,
         mouseControls: true,
         touchControls: true,
