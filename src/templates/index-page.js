@@ -54,45 +54,47 @@ export const IndexPageTemplate = ({
     >
       <script id="vantajs" src="/three.min.js"></script>
       <VantaDIV></VantaDIV>
-      <div
-        id="ontop"
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+      <div id="ontop">
+        <div
           style={{
-            boxShadow:
-              '#5ABCB9 0.5rem 0px 0px, #5ABCB9 -0.5rem 0px 0px',
-            backgroundColor: '#5ABCB9',
-            color: 'white',
+            display: 'flex',
+            height: '150px',
             lineHeight: '1',
-            padding: '0.25em',
-            zIndex: 10,
+            justifyContent: 'space-around',
+            alignItems: 'left',
+            flexDirection: 'column',
+            position: 'relative'
           }}
         >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              '#5ABCB9 0.5rem 0px 0px, #5ABCB9 -0.5rem 0px 0px',
-            backgroundColor: '#5ABCB9',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-            zIndex: 10,
-          }}
-        >
-          {subheading}
-        </h3>
+          <h1
+            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            style={{
+              boxShadow:
+                '#5ABCB9 0.5rem 0px 0px, #5ABCB9 -0.5rem 0px 0px',
+              backgroundColor: '#5ABCB9',
+              color: 'white',
+              lineHeight: '1',
+              padding: '0.25em',
+              zIndex: 10,
+            }}
+          >
+            {title}
+          </h1>
+          <h3
+            className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+            style={{
+              boxShadow:
+                '#5ABCB9 0.5rem 0px 0px, #5ABCB9 -0.5rem 0px 0px',
+              backgroundColor: '#5ABCB9',
+              color: 'white',
+              lineHeight: '1',
+              padding: '0.25em',
+              zIndex: 10,
+            }}
+          >
+            {subheading}
+          </h3>
+        </div>
       </div>
     </div>
     <section className="section section--gradient">
