@@ -57,13 +57,17 @@ export const IndexPageTemplate = ({
       <div id="ontop">
         <div
           style={{
+            textAlign: 'center',
             display: 'flex',
             height: '150px',
             lineHeight: '1',
             justifyContent: 'space-around',
             alignItems: 'left',
             flexDirection: 'column',
-            position: 'relative'
+            position: 'relative',
+            width: '75%',
+            margin: '0px auto',
+            marginTop: '12vh'
           }}
         >
           <h1

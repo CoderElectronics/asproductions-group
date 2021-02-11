@@ -1,4 +1,4 @@
-import WAVES from './vanta.waves.min.js';
+import NET from './vanta.net.min.js';
 import React from 'react'
 
 class VantaDIV extends React.Component {
@@ -7,7 +7,7 @@ class VantaDIV extends React.Component {
     this.vantaRef = React.createRef()
   }
   componentDidMount() {
-    this.vantaEffect = WAVES({
+    this.vantaEffect = NET({
         el: this.vantaRef.current,
         mouseControls: true,
         touchControls: true,
@@ -16,10 +16,7 @@ class VantaDIV extends React.Component {
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
-        color: 0x8088,
-        shininess: 96.00,
-        waveHeight: 40.00,
-        waveSpeed: 0.35
+        color: 0x3fffdd
     })
   }
   componentWillUnmount() {
