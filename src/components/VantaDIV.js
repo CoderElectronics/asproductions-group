@@ -26,14 +26,7 @@ class VantaDIV extends React.Component {
     if (this.vantaEffect) this.vantaEffect.destroy()
   }
   render() {
-    return (
-        <div>
-            <script id="vantajs" src="/three.min.js"></script>
-            <div ref={this.vantaRef}>
-            Foreground content goes here
-            </div>
-        </div>
-    )
+    return <div id="vantajs" ref={this.vantaRef}>Foreground content goes here</div>
   }
 }
 

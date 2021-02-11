@@ -45,16 +45,15 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      id="containertop"
       className="background full-width-image margin-top-0"
       style={{
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
+        position: `relative`,
       }}
     >
-      <VantaDIV>
-        
-      </VantaDIV>
+      <script id="vantajs" src="/three.min.js"></script>
+      <VantaDIV></VantaDIV>
       <div
         id="ontop"
         style={{
