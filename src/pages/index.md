@@ -3,7 +3,7 @@ templateKey: index-page
 title: A Northern Virginia AV Company
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: subheading should be here...
 mainpitch:
   title: Why Kaldi
   description: >
